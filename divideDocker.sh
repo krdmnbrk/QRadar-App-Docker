@@ -1,5 +1,5 @@
 #!/bin/bash
-# Author: Burak Karaduman <burak.karaduman@kocsistem.com.tr>
+# Author: Burak Karaduman <burakkaradumann@gmail.com>
 # Usage: sh divideDocker.sh
 
 # List app table
