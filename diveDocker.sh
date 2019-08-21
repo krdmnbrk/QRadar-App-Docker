@@ -1,6 +1,6 @@
 #!/bin/bash
 # Author: Burak Karaduman <burakkaradumann@gmail.com>
-# Usage: sh divideDocker.sh
+# Usage: sh diveDocker.sh
 
 # List app table
 psql -U qradar -c "select id, name, status from installed_application"
@@ -15,5 +15,5 @@ docker ps | grep $appid | awk '{print $1}' >> junk
 containerID=$(cat junk)
 rm -f junk
 
-# Divide into Docker Container
+# Dive into Docker Container
 docker exec -it $containerID /bin/bash
